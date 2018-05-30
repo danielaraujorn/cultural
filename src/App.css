@@ -1,0 +1,48 @@
+.ContainerAccount {
+  width: 80%;
+  margin: auto;
+}
+.profilePic {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media only screen and (max-width: 730px) {
+  .ContainerAccount {
+    width: 99%;
+  }
+  .profilePic {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.PaperAccount {
+  height: 160px;
+  margin: 10px 0;
+  border-radius: 2px;
+  background-color: #eee;
+}
+.imagePost {
+  border-radius: 2px;
+  height: 140px;
+  width: 140px;
+  background-size: cover;
+}
+body {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+.slider {
+  /* overflow: overlay; */
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+}
+
+.slider > div {
+  margin: auto 10px auto 0;
+}
